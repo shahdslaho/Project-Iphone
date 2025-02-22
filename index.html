@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="Home">
+        <header>
+            <a href="#"><img src="img/logo.png" class="logo"></a>
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#News">News</a></li>
+                <li><a href="#About">About</a></li>
+                
+            </ul>
+            <div class="menu" onclick="toggleMenu()">
+                ☰
+            </div>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h2>iphone 15 pro max </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque atque corporis repellendus et dignissimos eius nihil hic doloremque id tempora est ad nemo, officiis iure consequatur vitae possimus sint in.</p>
+                <a href="#">All Products</a>
+            </div>
+            <div class="image">
+                <img class="img" src="img/0.png" >
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="phones(this.src); colors('#000')"  src="img/0.png" >
+            <img onclick="phones(this.src); colors('#191970') "  src="img/1.png" >
+            <img onclick="phones(this.src); colors('#1e1e1e')"  src="img/2.png" >
+            <img onclick="phones(this.src); colors('#8B4513')"  src="img/3.png" >
+            <img onclick="phones(this.src); colors('#500000')"  src="img/4.png" >
+        </div>
+    </div>
+    <section class="products" id="Products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="img/0.png" alt="Product 1">
+                <h3>iphone 13 pro max</h3>
+                <p>Shiny gold for a luxurious and elegant touch</p>
+                <span>$999</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="img/1.png" alt="Product 2">
+                <h3>iphone 13 pro max</h3>
+                <p>Fresh and modern with a cool Sierra Blue</p>
+                <span>$799</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="img/2.png" alt="Product 2">
+                <h3>iphone 13 pro max</h3>
+                <p>Sophisticated graphite for a bold, sleek look</p>
+                <span>$799</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="img/3.png" alt="Product 2">
+                <h3>iphone 13 pro max</h3>
+                <p>Classic gold, timeless and refined</p>
+                <span>$799</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="img/4.png" alt="Product 2">
+                <h3>iphone 13 pro max</h3>
+                <p>Vibrant red for those who love to stand out</p>
+                <span>$799</span>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section class="news" id="News">
+        <h2>Latest News</h2>
+        <div class="news-list">
+          
+            <div class="news-item">
+                        <img src="img/image1.png" alt="New iPhone Release">
+                        <h3>iPhone 16 Pro Max Officially Released!</h3>
+                        <p>Apple has unveiled the latest iPhone 15 Pro Max with a powerful A17 Pro chip and a stunning titanium design.</p>
+                        <div class="more-content">
+                            <p>The iPhone 15 Pro Max features a 48MP main camera, USB-C charging, and a periscope zoom lens for enhanced photography.</p>
+                        </div>
+                        
+                        <a href="#" class="read-more-btn">Read More</a>
+            </div>
+             
+            
+            <div class="news-item">
+                <img src="img/image.png" alt="Camera Upgrade">
+                <h3>New Camera Innovations in iPhone 15 Pro Max</h3>
+                <p>The iPhone 15 Pro Max introduces a periscope zoom lens for the first time, offering up to 5x optical zoom.</p>
+                <div class="more-content">
+                    <p>This new technology enhances photography, providing sharper zoomed-in images with improved low-light performance.</p>
+                </div>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+    
+            <div class="news-item">
+                <img src="img/imag2.png" alt="Special Colors">
+                <h3>Exclusive Colors for iPhone 15 Pro Max</h3>
+                <p>Apple introduces new exclusive colors, including Titanium Blue and Natural Titanium.</p>
+                <div class="more-content">
+                    <p>These premium finishes offer a sleek look with a durable titanium body for a more refined feel.</p>
+                </div>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+    
+            <div class="news-item">
+                <img src="img/image3.png" alt="USB-C Port">
+                <h3>Apple Finally Adopts USB-C on iPhone</h3>
+                <p>The new iPhone 15 Pro Max comes with a USB-C port for faster charging and universal connectivity.</p>
+                <div class="more-content">
+                    <p>With USB-C, users can now enjoy improved data transfer speeds and compatibility with more accessories.</p>
+                </div>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+           
+        </div>
+    </section>
+    
+    <section class="about" id="About">
+        <h2>About iPhone</h2>
+        <p>Discover the legacy of innovation with iPhone, where cutting-edge technology meets elegant design.</p>
+    
+        <div class="about-content">
+            <img src="img/Apple iphone.png" alt="iPhone Evolution" class="about-image">
+            <div class="about-info">
+                <h3>Our Journey</h3>
+                <p>Since the first iPhone launch, we’ve redefined what a smartphone can do. Our commitment to excellence has shaped the way the world connects.</p>
+    
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>2B+</h3>
+                        <p>iPhones Sold</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>User Satisfaction</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>#1</h3>
+                        <p>Smartphone Brand</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#About">About</a></li>
+                   
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
